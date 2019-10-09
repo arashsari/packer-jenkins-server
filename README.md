@@ -25,6 +25,9 @@ This packer project checkout the latest AMI and install following ansible packag
 
 
 In the Jenkins server, we could create a Jenkins task to automate the creation of this AMI with Packer.
-Create Jenkins task, with pipeline project type and finally add this repository into the Jenkins tasks' SCM to run from git.
-The Jenkinsfile file will run 4 stages of creating packer.
+
+Create Jenkins task, with pipeline project type. Then  add this repository into the Jenkins tasks SCM (run from git).
+This task with run and create a new ami.
+
+The Jenkinsfile file includes 4 stages of creating AMI with packer.
 
