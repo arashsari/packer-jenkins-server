@@ -12,3 +12,5 @@
     - geerlingguy.jenkins
     - geerlingguy.ansible-role-packer
     - geerlingguy.ansible
+    - dev-sec.os-hardening
+    - dev-sec.ssh-hardening

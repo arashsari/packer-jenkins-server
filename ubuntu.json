@@ -11,14 +11,14 @@
         "access_key": "{{user `aws_access_key`}}",
         "secret_key": "{{user `aws_secret_key`}}",
         "region": "{{user `aws_region`}}",
-        "ami_name": "jenkins-server-{{timestamp}}", 
+        "ami_name": "jenkins-server-{{timestamp}}",
         "source_ami_filter": {
           "filters": {
             "virtualization-type": "hvm",
-            "name": "hardening-base-*",
+            "name": "ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-*",
             "root-device-type": "ebs"
           },
-          "owners": ["self"],
+          "owners": ["099720109477"],
           "most_recent": true
         }
     }],

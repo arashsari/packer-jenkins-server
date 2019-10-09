@@ -1,3 +1,5 @@
 - src: geerlingguy.jenkins
 - src: geerlingguy.ansible-role-packer
 - src: geerlingguy.ansible
+- src: dev-sec.ssh-hardening
+- src: dev-sec.os-hardening
