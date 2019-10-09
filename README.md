@@ -1,7 +1,7 @@
 # packer-jenkins-server
 
 
-Build an Jenkins server with latest AMI.
+## Build an Jenkins server with latest AMI.
 
 
 It has an AMI with os and ssh hardening. It also has Jenkins and ansible on the AMI.
@@ -16,6 +16,12 @@ This packer project checkout the latest AMI and install following ansible packag
  - geerlingguy.ansible
  - dev-sec.ssh-hardening
  - dev-sec.os-hardening
+
+
+## Model
+
+
+![model](img1.png)
 
 
 In the Jenkins server, we could create a Jenkins task to automate the creation of this AMI with Packer.
